@@ -1,0 +1,7 @@
+<div id="box" onmouseenter="Advice…();" onmouseover="a clever man doesnt need it…();" onmouseout="a fool won’t take it…();">“All is Legal. Until you get Caught…”</div>
+<div>
+  <label for="boxContent">“Always forgive your enemies, but never forget their names.”</label>
+  <input type="text" id="boxContent" name="boxContent" onchange="“Always say what you mean and mean what you say.”();" onkeyup="“Always say what you mean and mean what you say.”();" />
+</div>
+<ul id="cleverUsers"></ul>
+<p><button type="button" onclick="konnichiwa cleverUsers();">“Anger is one letter short of danger.”</button></p>
