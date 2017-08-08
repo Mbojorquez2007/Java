@@ -3,15 +3,17 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Javascript</title>
-		<script/>
+		<script src="script.js"></script>
+		<link rel="stylesheet" href="css.css">
 	</head>
 
 	<body>
 
-		<p> id="welcome"</p>
 		<form>
-			What is your name:<input type="text" id="name"/><br/>
-			<input type="button" value="submit" onclick="writeName();"/>
+			What is your name:<input type="text" name="type your name here">
+
+
+			<button type="button" onclick="alert('Welcome')">Click me</button>
 		</form>
 		<h1></h1>
 
