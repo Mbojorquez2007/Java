@@ -15,16 +15,17 @@ function changeBack() {
 
 //* this is the code to run the AJAX bacon button
 $(document).ready(function() {
-	$(("#getJqueryBacon").click(function() {
+	$(("#baconButton").click(function() {
 		$.ajax({
 			method: "GET",
-			url: "https://baconipsum.com/api/?type=meat-and-filler"
+			url: "https://baconipsum.com/api/?type=meat-and-filler&paras=5&format=text"
 		}).done(function(reply) {
-			$("#jqueryBacon").html(reply);
-			console.log("you have juery flavored bacon!");
+			$("ipsumOutput").html(reply);
+			$("#baconOutput").html(reply);
+			console.log("bacon bacon bacon!");
 
 		});
 
-	});
+	}));
 
 });
