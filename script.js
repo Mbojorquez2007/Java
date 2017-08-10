@@ -13,6 +13,10 @@ function changeBack() {
 	document.getElementById("colorbox").style.borderRadius = "50%";
 }
 
+
+// change the font
+
+
 // this is the code to run the AJAX bacon button
 $(document).ready(function() {
 	$("#baconButton").click(function() {
@@ -28,3 +32,4 @@ $(document).ready(function() {
 	});
 
 });
+
