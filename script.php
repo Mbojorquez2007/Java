@@ -28,7 +28,7 @@
 		</p>
 		</div>
 
-		<button id="changeFont">Tasty</button>
+		<button id="font" onclick="fontChange();">Tasty</button>
 
 
 		<div id="colorbox" onmouseenter="changeColor();" onmouseover="changeColor();" onmouseout="changeBack();"<h4>I love you!</h4></div>

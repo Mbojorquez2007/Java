@@ -15,7 +15,9 @@ function changeBack() {
 
 
 // change the font
-
+function changefont (){
+	document.getElementById("cakeText").style.fontFamily = "comic sans";
+}
 
 // this is the code to run the AJAX bacon button
 $(document).ready(function() {
