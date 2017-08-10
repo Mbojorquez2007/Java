@@ -3,8 +3,11 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Javascript</title>
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 		<script src="script.js"></script>
 		<link rel="stylesheet" href="style.css">
+
 	</head>
 
 	<body>
@@ -18,7 +21,7 @@
 		<div id="colorbox" onmouseenter="changeColor();" onmouseover="changeColor();" onmouseout="changeBack();"<h4>I love you!</h4></div>
 		<h3>pigOut</h3>
 		<button id="baconButton">piggy</button>
-		<div>class=container id="baconOutput">
+		<div id="baconOutput">
 			<!--IPSUM goes here-->
 		</div>
 		<h1></h1>
