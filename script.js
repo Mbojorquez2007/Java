@@ -12,11 +12,15 @@ function changeColor() {
 function changeBack() {
 	document.getElementById("colorbox").style.borderRadius = "50%";
 }
+function myFunction() {
+	document.getElementById("demo").innerHTML = "Helllo";
+}
+
 
 
 // change the font
-function changefont (){
-	document.getElementById("cakeText").style.fontFamily = "comic sans";
+function fontChange (){
+	document.getElementById("cakeText").style.fontFamily = "Pacifico";
 }
 
 // this is the code to run the AJAX bacon button

@@ -30,8 +30,14 @@
 
 		<button id="font" onclick="fontChange();">Tasty</button>
 
+		<div><p>Click the button.</p>
 
-		<div id="colorbox" onmouseenter="changeColor();" onmouseover="changeColor();" onmouseout="changeBack();"<h4>I love you!</h4></div>
+			<button onclick="myFunction()">Push</button>
+
+			<p id="demo"></p></div>
+
+
+		<div id="colorbox" onmouseenter="changeColor();" onmouseover="changeColor();" onmouseout="changeBack();"><h4>I love you!</h4></div>
 		<h3>pigOut</h3>
 		<button id="baconButton">piggy</button>
 		<div id="baconOutput">
